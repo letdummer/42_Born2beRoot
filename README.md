@@ -81,7 +81,7 @@
 - Create an account with username and password.
 - Configure the clock to Lisbon.
 
-## Partition disks
+## PARTITION DISKS
   
   Choose Manual if you will do the bonuses.
 
@@ -135,12 +135,12 @@
 
 <!-- SETTING UP THE VIRTUAL MACHINE -->
 
-## Setting up the Virtual Machine
+## SETTING UP THE VIRTUAL MACHINE
 
 - Enter your encryption password.
 - Enter the user and password.
 
-### Sudo, Users and Groups
+### SUDO, USERS AND GROUPS
 
   `user@hostname`
   
@@ -157,7 +157,7 @@
 > `getent group`<br>
 > `getent group <groupname>`
 
-### Installing SSH and VIM
+### INSTALLING SSH AND VIM
 
 - First update the system
 ```
