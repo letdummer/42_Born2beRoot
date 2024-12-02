@@ -5,8 +5,14 @@
 + **OBJECTIVE**
 
   Create and configure a Virtual Machine.
->[!IMPORTANT]
+
 >A Virtual Machine is a software that emulate the hardware of a computer. It is very usefull when in a work you need to test something in a diferent system without having another machine ou changing your.
+<br>
+<br>
+
+>[!WARNING]
+>Before start the project, check the section [Bonus](#bonus) to decide if you will do it or not.<br>
+>Then, check the bonus requirements listede there to garantee that you have enough space.
 
   <br>
 <details>
@@ -48,6 +54,8 @@
 - [Strong password policy](#strong-password-policy)<br>
 - [Script](#script)<br>
 
+
+- [Bonus](#bonus)<br>
 - [References](#references)<br>
 
 </details>
@@ -475,6 +483,22 @@ In bash the -gt flag is the Greater Than Comparison Operator used for arithmetic
 >Use `crontab -u root -e` to show the content
 
 <!----------------------- !end! SCRIPT ----------------------->
+<!----------------------- BONUS ----------------------->
+
+## BONUS
+
+Check this before doing the bonus!
+
+- Check how much space do you have in the directory that you want to create the VM.
+- You have at least 60gb (yes!!) in the directory (sgoinfre or goinfre).
+  - Why? Maybe your signature will be altered after the first evaluation, so you need to clone the project or use save state.
+- Choose do ou not the bonuses **before** start the project, cause you need to create the partitions since the beggining.
+- For adding points you will have to do:
+  - A functional `WordPress` website with `lighttpd`, `Mariadb` and `PHP` (and study what is these things)
+  - Set up a service that you think is useful (NGINX / Apache2 excluded!) Then justify your choice.
+
+
+<!----------------------- !end! BONUS ----------------------->
 
 
 
