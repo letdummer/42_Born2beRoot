@@ -56,6 +56,7 @@
 
 
 - [Bonus](#bonus)<br>
+- [Commands for the evaluation](/COMMANDS.md)<br>
 - [References](#references)<br>
 
 </details>
