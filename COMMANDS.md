@@ -166,7 +166,19 @@ ___
   ```
   sudo /etc/init.d/cront stop
   ```
+<!--------------------- !end! PORT ----------->
+<!--------------------- SIGNATURE ----------->
+
+### SIGNATURE
+
+- In the path where the VM is located, run the command:
+  ```
+  sha1sum name_virtual_machine.vdi
+  ```
   
 
-<!--------------------- !end! PORT ----------->
+<!--------------------- !end! SIGNATURE ----------->
+
+  
+
 
