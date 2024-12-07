@@ -1,6 +1,6 @@
 <!----------------------- INTRODUCTION ----------------------->
 
-## INTRODUCTION
+## 📝 INTRODUCTION
 
 + **OBJECTIVE**
 
@@ -18,7 +18,7 @@
 <details>
 <summary> 
 
-  #### REQUIREMENTS
+  #### ⚠️ REQUIREMENTS
 </summary>
 
   - Operating system: choose the latest stable version of Debian or Rocky.
@@ -40,7 +40,7 @@
 <details open>
 <summary>
   
-  ####  STEP BY STEP
+  #### 📑 STEP BY STEP
 </summary>
 
 - [Downloading the Virtual Machine](#downloading-the-virtual-machine)<br>
@@ -486,7 +486,7 @@ In bash the -gt flag is the Greater Than Comparison Operator used for arithmetic
 <!----------------------- !end! SCRIPT ----------------------->
 <!----------------------- BONUS ----------------------->
 
-## BONUS
+## ✨ BONUS
 
 Check this before doing the bonus!
 
@@ -504,7 +504,7 @@ Check this before doing the bonus!
 
 
 <!----------------------- REFERENCES ----------------------->
-## References 
+## 🔎 References 
 
 - [sudo install](https://milq.github.io/enable-sudo-user-account-debian/)<br>
 - [UFW](https://tecadmin.net/ufw-common-firewall-rules-and-commands/)<br>
