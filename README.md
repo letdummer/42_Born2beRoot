@@ -478,7 +478,7 @@ In bash the -gt flag is the Greater Than Comparison Operator used for arithmetic
 <!----------------------- BONUS ----------------------->
 
 
-## ✨ BONUS
+## BONUS ✨
 
 Check this before doing the bonus!
 
@@ -494,7 +494,7 @@ Check this before doing the bonus!
 <!----------------------- !end! BONUS ----------------------->
 <!----------------------- REFERENCES ----------------------->
 
-##  🔎 References
+## References 🔎
 
 - [sudo install](https://milq.github.io/enable-sudo-user-account-debian/)<br>
 - [UFW](https://tecadmin.net/ufw-common-firewall-rules-and-commands/)<br>
