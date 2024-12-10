@@ -1,6 +1,16 @@
-<!--------------------- INTRODUCTION ----------->
 ## COMMANDS FOR THE EVALUATION OF BORN2BEROOT
+<!--------------------- SIGNATURE ----------->
 
+### SIGNATURE
+
+- In the path where the VM is located, run the command:
+  ```
+  sha1sum name_virtual_machine.vdi
+  ```
+  
+
+<!--------------------- !end! SIGNATURE ----------->
+<!--------------------- INTRODUCTION ----------->
 - Show the partitions
   ```
   lsblk
@@ -167,17 +177,7 @@ ___
   sudo /etc/init.d/cront stop
   ```
 <!--------------------- !end! PORT ----------->
-<!--------------------- SIGNATURE ----------->
 
-### SIGNATURE
-
-- In the path where the VM is located, run the command:
-  ```
-  sha1sum name_virtual_machine.vdi
-  ```
-  
-
-<!--------------------- !end! SIGNATURE ----------->
 
   
 
