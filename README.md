@@ -318,7 +318,7 @@ Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/
 `log_input, log_output` - what will be logged <br>
 `iolog_dir` - path where input and ouput will be stored<br>
 `requiretty` - enable TTY<br>
-`secure_path` -  <br> secure path. Separates `root path` from `user path`
+`secure_path` -  <br> separates `root path` from `user path`
 
 - Create the directory to store the system's sudo log
 ```
