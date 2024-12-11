@@ -139,6 +139,14 @@ ___
   cd /var/log/sudo && cat sudo_config
   ```
 
+  ```
+  vim /etc/login.defs
+  ```
+
+  ```
+  vim /etc/pam.d/common-password
+  ```
+
 <!--------------------- !end! SUDO ----------->
 <!--------------------- PORT ----------->
 ### PORT
