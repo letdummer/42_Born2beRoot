@@ -89,6 +89,10 @@ ___
   ```
   getent group group_name
   ```
+- Delete the group
+  ```
+  groupdel <group_name>
+  ```
 
 - Modify the hostname
   ```
