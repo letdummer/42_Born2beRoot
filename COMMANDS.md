@@ -139,6 +139,7 @@ ___
   cd /var/log/sudo && cat sudo_config
   ```
 
+- look for PASS_ [...]
   ```
   vim /etc/login.defs
   ```
