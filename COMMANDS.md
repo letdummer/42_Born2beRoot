@@ -91,7 +91,7 @@ ___
   ```
 - Delete the group
   ```
-  groupdel <group_name>
+  sudo groupdel <group_name>
   ```
 
 - Modify the hostname
