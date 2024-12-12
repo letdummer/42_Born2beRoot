@@ -143,11 +143,11 @@ ___
   cd /var/log/sudo && cat sudo_config
   ```
 
-- look for PASS_ [...]
+- Control the 'age' of the pass. Look for PASS_MAX [...]
   ```
   vim /etc/login.defs
   ```
-
+- show the functions of the libpam-pwquality plugin
   ```
   vim /etc/pam.d/common-password
   ```
