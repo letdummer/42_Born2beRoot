@@ -11,6 +11,11 @@
 
 <!--------------------- !end! SIGNATURE ----------->
 <!--------------------- INTRODUCTION ----------->
+- Last boot time
+```
+who -b
+```
+
 - Show the partitions
   ```
   lsblk
