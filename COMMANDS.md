@@ -1,27 +1,46 @@
 ## COMMANDS FOR THE EVALUATION OF BORN2BEROOT
-<!--------------------- SIGNATURE ----------->
 
+<!------------------- SUMMARY --------------->
+### SUMMARY
+
+- [Signature](#signature)<br>
+- [Connect via SSH](#connection-via-ssh)<br>
+- [Users and Groups](#users-and-groups)<br>
+- [Sudo](#sudo)<br>
+- [Port](#port)<br>
+- [Script](#script)<br>
+<!------------------- !end! SUMMARY --------------->
+<!--------------------- SIGNATURE -----------><br>
+___ 
 ### SIGNATURE
 
-- In the path where the VM is located, run the command:
+- In the PATH where the VM is located, run the command:
   ```
   sha1sum name_virtual_machine.vdi
   ```
-  
+>[!TIP]
+>During the evaluation:
+>- generate the signature code
+>- paste in an empty .txt file
+>- copy the content cloned from the file downloaded from intra
+>- paste this content in the search (ctrl + f) to compare
+>  
 
+<br>
 <!--------------------- !end! SIGNATURE ----------->
 <!--------------------- INTRODUCTION ----------->
-- Last boot time
+
+- LAST BOOT time
 ```
 who -b
 ```
 
-- Show the partitions
+- Show the PARTITIONS
   ```
   lsblk
   ```
 
-- Check that no graphical interface is in use
+- Check that no graphical INTERFACE is in use
   ```
   ls /usr/bin/*session
   ```
@@ -40,12 +59,12 @@ who -b
   sudo service ssh status
   ```
 
-- Verify the operating system
+- Verify the OPERATION system
   ```
   uname -v
   ```
 
-- Check if the machine's hostname is correct
+- Check if the machine's HOSTNAME is correct
   ```
   hostname
   ```
@@ -53,7 +72,7 @@ who -b
 <!--------------------- !end! INTRODUCTION ----------->
 <!--------------------- SSH, USER, GROUPS ----------->
 ___
-### Connection via SSH
+### CONNECTION VIA SSH
 
 - Show the IP address
   ```
@@ -64,50 +83,48 @@ ___
   ssh ldummer-@ip_address -p 4242
   ```
 ___
-
 ### USERS AND GROUPS
 
-- Check if the user is within the "sudo" and "user42" groups.
+- Check if the USER is within the "sudo" and "user42" GROUPS.
   ```
-  getent group sudo
-  ```
-  ```
-  getent group user42
+  getent group sudo user42
   ```
 
-- Create a new user
+- Create a NEW USER
   ```
   sudo adduser user_name
   ```
 
-- Create a new group
+- Create a NEW GROUP
   ```
   sudo addgroup group_name
   ```
 
-- Add the user to the group
+- ADD the user to the group
   ```
   sudo adduser user_name group_name
   ```
 
-- Verify if it was correctly added
+- VERIFY if it was correctly added
   ```
   getent group group_name
   ```
-- Delete the group
+- DELETE the group
   ```
   sudo groupdel <group_name>
   ```
 
-- Modify the hostname
+- MODIFY the hostname
   ```
-  sudo nano /etc/hostname
+  sudo vim /etc/hostname
   ```
-
+  
+<!--
   ```
   sudo nano /etc/hosts
   ```
-
+  -->
+- REBOOT the system
   ```
   sudo reboot
   ```
@@ -118,6 +135,7 @@ ___
 
 <!--------------------- !end! SSH, USER, GROUPS ----------->
 <!--------------------- SUDO ----------->
+___
 ### SUDO
 
 - Verify if 'sudo' is installed
@@ -129,53 +147,46 @@ ___
   dpkg -s sudo
   ```
 
-- Add the new_user to the 'sudo' group
-  ```
-  sudo adduser user_name sudo
-  ```
-
-  ```
-  getent group sudo
-  ```
-
-- Show 'sudo' rules
+- Show 'sudo' RULES
   ```
   cd /var/log/sudo && vim /etc/sudoers.d/sudo_config
   ```
 
-- Show the history of commands used with sudo
+- Show the LOG [history] of commands used with sudo
   ```
-  cd /var/log/sudo && cat sudo_config
+  cd /var/log/sudo && cat sudo_log
   ```
 
-- Control the 'age' of the pass. Look for PASS_MAX [...]
+- Control the 'AGE' of the pass. Look for PASS_MAX [...]
   ```
   vim /etc/login.defs
   ```
 - show the functions of the libpam-pwquality plugin
+- 'shortcuts' to implement the password policy
   ```
   vim /etc/pam.d/common-password
   ```
 
 <!--------------------- !end! SUDO ----------->
 <!--------------------- PORT ----------->
+___
 ### PORT
 
-- List the active rules in UFW
+- List the ACTIVE rules in UFW
   ```
   sudo ufw status numbered
   ```
 
-- Create a new rule
+- Create a NEW rule
   ```
   sudo ufw allow 8080
   ```
 
-- Delete a rule
+- DELETE a rule
   ```
   sudo ufw delete rule_number
   ```
-- To deny a rule
+- To DENY a rule
   ```
   sudo ufw deny rule_number
   ```
@@ -185,7 +196,7 @@ ___
   sudo service ssh status
   ```
 
-- Modify crontab
+- Modify CRONTAB
   ```
   sudo crontab -u root -e
   ```
@@ -196,9 +207,10 @@ ___
   ```
 <!--------------------- !end! PORT ----------->
 <!---------------------- SCRIPTS ------------->
-### SCRIPTS
+___
+### SCRIPT
 
-- path
+- PATH
   ```
   cd /usr/local/bin
   ```
