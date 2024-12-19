@@ -102,7 +102,7 @@ ___
 
 - ADD the user to the group
   ```
-  sudo adduser user_name group_name
+  sudo usermod -aG groupname username
   ```
 
 - VERIFY if it was correctly added
@@ -167,7 +167,7 @@ sudo chage -l username
   ```
   
 - show the functions of the libpam-pwquality plugin
-- 'shortcuts' to implement the password policy
+   'shortcuts' to implement the password policy
   ```
   vim /etc/pam.d/common-password
   ```
