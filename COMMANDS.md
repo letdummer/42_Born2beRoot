@@ -157,10 +157,15 @@ ___
   cd /var/log/sudo && cat sudo_log
   ```
 
+- Check password EXPIRE rules
+```
+sudo chage -l username
+```
 - Control the 'AGE' of the pass. Look for PASS_MAX [...]
   ```
   vim /etc/login.defs
   ```
+  
 - show the functions of the libpam-pwquality plugin
 - 'shortcuts' to implement the password policy
   ```
