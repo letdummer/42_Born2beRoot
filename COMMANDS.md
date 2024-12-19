@@ -219,7 +219,15 @@ ___
   ```
   cd /usr/local/bin
   ```
-
+- modify the crontab file
+  ```
+  sudo crontab -u root -e
+  ```
+- start/stop crontab
+  ```
+  sudo /etc/init.d/cront stop 
+  ```
+  
 <!---------------------- !end!SCRIPTS ------------->
 
   
